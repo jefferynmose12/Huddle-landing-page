@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(114, 114, 114);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* all text*/
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  width: 72%;
+}
+
+p {
+  color: rgb(238, 238, 238);
+  font-size: 1.5rem;
+  word-spacing: 2;
+  line-height: 1.5;
+  font-weight: 20;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+/* container */
+.container {
+  background-color:  hsl(257, 40%, 49%);
+  background-image: url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  padding: 60px 150px;
+}
+
+.main {
+  display: flex;
+  gap: 70px;
+  padding-top: 60px;
+}
+
+img {
+  flex: 1 1 55%;
+  height: 50%;
+}
+
+.community {
+  color: #fff;
+  flex: 1 1 45%;
+  padding-top: 30px ;
+} 
+
+/* button */
+.main button {
+  background-color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  color: hsl(300, 30%, 54%);
+  padding: 20px 80px;
+  box-shadow: 3px 3px 4px #aaa;
+  margin-top: 20px;
+}
+.main button:hover{
+  background-color: hsl(300, 69%, 71%);
+  box-shadow: 3px 3px 4px gray;
+  color: #fff;
+}
+/* icon-link */
+.container .icon-link{
+  text-align: right;
+  margin: 5px 0;
+}
+
+.icon-link img {
+  margin: 0 10px;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.icon-link img:hover {
+  background-color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
+
+/* media query */
+@media (max-width: 450px) {
+  * {
+    margin: 0;
+  }
+
+  .logo {
+    width: 45%;
+  } 
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  p {
+    font-size: 1rem;
+    word-spacing: 0;
+    line-height: 1.5;
+    margin-top: 15px;
+  }
+
+  .container {
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    padding: 30px 40px;
+  }
+
+  .main {
+    display: block;
+    margin: 0;
+  }
+
+  img {
+    flex: 1 1 55%;
+    height: 50%;
+    width: 100%;
+  }
+  
+  .community {
+    padding-top: 20px;
+    color: #fff;
+  } 
+
+  .main .community {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .main button {
+    background-color: #fff;
+    font-size: 1rem;
+    border-radius: 50px;
+    color: hsl(300, 30%, 54%);
+    padding: 10px 80px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container .icon-link{
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .icon-link img {
+    margin: 80px 5px 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50px;
+    width: 8%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
