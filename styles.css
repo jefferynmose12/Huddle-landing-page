@@ -10,10 +10,10 @@ body {
 }
 /* all text*/
 h1 {
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 500;
   line-height: 1.4;
-  width: 90%;
+  width: auto;
 }
 
 p {
@@ -22,7 +22,7 @@ p {
   word-spacing: 1.5;
   line-height: 1.3;
   font-weight: 20;
-  margin-top: 20px;
+  margin-top: 12px;
   margin-bottom: 8px;
 }
 /* container */
